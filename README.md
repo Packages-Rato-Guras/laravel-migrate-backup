@@ -1,4 +1,4 @@
-# Laravel Migrate Backup
+# Laravel Migrate Backup 
 
 Automatically create a **database backup before running destructive migration commands** like `migrate:fresh` and `migrate:refresh`.
 
