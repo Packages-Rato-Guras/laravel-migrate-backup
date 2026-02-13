@@ -26,11 +26,14 @@
         }
     },
     "repositories": [
-    {
-        "type": "path",
-        "url": "https://github.com/Packages-Rato-Guras/laravel-migrate-backup"
-    }
-],
+        {
+            "type": "vcs",
+            "url": "https://github.com/Packages-Rato-Guras/laravel-migrate-backup.git"
+        }
+    ],
+    "require-dev": {
+        "ratoguras/laravel-migrate-backup": "main"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
