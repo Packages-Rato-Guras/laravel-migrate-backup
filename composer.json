@@ -11,7 +11,9 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/support": "^10.0|^11.0|^12.0"
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/console": "^10.0|^11.0|^12.0",
+        "illuminate/events": "^10.0|^11.0|^12.0"
     },
     "autoload": {
         "psr-4": {
@@ -25,15 +27,6 @@
             ]
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Packages-Rato-Guras/laravel-migrate-backup.git"
-        }
-    ],
-    "require-dev": {
-        "ratoguras/laravel-migrate-backup": "main"
-    },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
